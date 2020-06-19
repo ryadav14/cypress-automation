@@ -1,0 +1,16 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "end to end automation tests ",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^4.7.0"
+  },
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "test": "./node_modules/.bin/cypress run"
+  },
+  "author": "",
+  "license": "ISC"
+}
